@@ -2,7 +2,7 @@
 
 A cinematic, single-scroll React web experience exploring evidence-based principles of creative motivation — grounded in the research of Teresa M. Amabile and related scholarship.
 
-## Quick Start
+## Quick Start Guide
 
 ```bash
 npm install

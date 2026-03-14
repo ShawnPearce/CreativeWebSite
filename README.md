@@ -31,10 +31,28 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Accessibility
 
-- Respects `prefers-reduced-motion` (disables animations, smooth scroll, and pinning)
-- Skip-to-content link
-- Semantic HTML landmarks
-- Strong contrast ratios on dark background
+### Reduced Motion Support
+- Respects `prefers-reduced-motion` — all GSAP animations, Lenis smooth scroll, and scroll-triggered effects are disabled entirely for users who prefer reduced motion (`App.tsx`, `Hero.tsx`, `References.tsx`)
+
+### Skip-to-Content Link
+- A visually hidden "Skip to content" link appears on keyboard focus, allowing screen reader and keyboard users to bypass decorative elements and jump directly to `<main id="main-content">`
+
+### Semantic HTML & Landmarks
+- Content is wrapped in a `<main>` element
+- Every major section uses `<section>` with `aria-labelledby` pointing to its heading (`hero-title`, `killers-title`, `conditions-title`, `interventions-title`, `references-title`)
+
+### ARIA Attributes
+- Side dot navigation uses `aria-label="Page sections"` with per-button `aria-label="Jump to {section}"` and `aria-current` for the active section
+- Decorative elements (dividers, progress bar, SVG icons) are marked `aria-hidden="true"` so screen readers skip them
+- The animated per-letter hero title is `aria-hidden`, with a clean `sr-only` text alternative so screen readers announce "Motivating Creativity" as a single phrase
+
+### Keyboard Navigation & Focus Styles
+- All interactive cards and list items have `tabIndex={0}` for keyboard access
+- Visible `focus-visible` ring styles on every focusable element (color-matched per section: purple, red, emerald, indigo)
+- Framer Motion `whileFocus` provides the same slide animation on keyboard focus as on hover (Interventions timeline)
+
+### Contrast
+- Strong contrast ratios on the dark background for all body text and headings
 
 ## Build for Production
 

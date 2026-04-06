@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import TextReveal from './TextReveal';
+import myImage from "./assets/dict.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -111,6 +112,7 @@ export default function CreativityKillers() {
               className="killer-strike absolute left-0 top-1/2 w-full h-[2px] bg-red-400/60 origin-left"
               style={{ transform: 'scaleX(0)' }}
             />
+        <img src={myImage} alt="Villian" />
           </h2>
           <TextReveal className="mt-6 text-white/60 text-lg leading-relaxed max-w-xl mx-auto">
             Amabile (1998) identified managerial practices that systematically undermine intrinsic motivation — and with it, creative output.

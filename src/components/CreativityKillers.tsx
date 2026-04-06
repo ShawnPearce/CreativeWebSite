@@ -115,7 +115,7 @@ export default function CreativityKillers() {
           </h2>
           <img src={myImage} alt="Villain" className="mt-6 mx-auto max-w-sm rounded-lg" />
           <TextReveal className="mt-6 text-white/60 text-lg leading-relaxed max-w-xl mx-auto">
-            Amabile (1998) identified managerial practices that systematically undermine intrinsic motivation — and with it, creative output.
+            Amabile (1998) found that certain management practices can actually kill intrinsic motivation, which is one of the biggest factors behind creativity and good problem solving. When workplaces have too much control, strict evaluation standards, tight deadlines, and not enough freedom, employees start focusing more on just meeting expectations instead of actually thinking creatively. Basically, people stop exploring new ideas and just try to play it safe.
           </TextReveal>
         </div>
 

@@ -99,7 +99,7 @@ export default function References() {
             References
           </h2>
           <p className="mt-3 text-sm text-white/45">
-            APA 7th Edition Format
+            APA 
           </p>
         </div>
 

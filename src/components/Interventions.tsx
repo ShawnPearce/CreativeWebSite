@@ -10,7 +10,7 @@ const interventions = [
   {
     step: 'I',
     title: 'Redefine the Brief',
-    body: 'Set clear strategic goals but leave the path open. Specify the "what" and "why," not the "how." Autonomy in process — not in mission — is the strongest predictor of creative output (Amabile, 1998).',
+    body: 'Set clear strategic goals but leave the path open. Specify the "what" and "why," not the "how." Autonomy in process, not in mission, is the strongest predictor of creative output (Amabile, 1998).',
   },
   {
     step: 'II',

@@ -5,7 +5,7 @@ export default function Footer() {
         className="text-sm text-white/20"
         style={{ fontFamily: "'Inter', sans-serif" }}
       >
-        Motivating Creativity &mdash; A Research-Based Exploration
+        Motivating Creativity | A Research-Based Exploration
       </p>
       <p className="mt-2 text-xs text-white/10">
         Built for Creative Leadership &middot; All content grounded in peer-reviewed research

@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 const conditions = [
   {
     title: 'Autonomy',
-    body: 'Giving people freedom in how they approach their work — not in defining the goals, but in the process — heightens intrinsic motivation and creative engagement (Deci & Ryan, 2000).',
+    body: 'Giving people freedom in how they approach their work, not in defining the goals, but in the process, heightens intrinsic motivation and creative engagement (Deci & Ryan, 2000).',
     icon: '01',
     gradient: 'from-emerald-500/20 via-emerald-500/5 to-transparent',
     accentBorder: 'group-hover:border-emerald-400/30',

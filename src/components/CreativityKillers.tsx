@@ -26,7 +26,7 @@ const killers = [
   {
     label: 'Competition',
     detail:
-      'Putting people in win–lose situations for recognition forces them to stop sharing ideas — killing collaborative creativity.',
+      'Putting people in win / lose situations for recognition forces them to stop sharing ideas, killing collaborative creativity.',
   },
   {
     label: 'Restricted Choice',
